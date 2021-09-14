@@ -1,7 +1,7 @@
 {
-  "name": "GraphQL Demo",
-  "version": "0.2.0",
-  "description": "A simple graphql server setup",
+  "name": "express-graphql-server",
+  "version": "1.0.0",
+  "description": "> A minimalistic React/GraphQL starter project",
   "main": "server/index.js",
   "scripts": {
     "client": "npm run webpack",
@@ -13,7 +13,7 @@
     "dev": "run-p dev:client dev:server",
     "lint": "eslint . --ext .js,.jsx"
   },
-  "author": "EDA",
+  "author": "",
   "license": "ISC",
   "babel": {
     "presets": [
@@ -34,6 +34,8 @@
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.3",
     "jest": "^26.6.3"
   },
   "devDependencies": {
